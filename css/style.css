@@ -1,0 +1,486 @@
+.newscontainer
+{
+ width:98%;
+margin:auto;
+}
+.container
+{
+width:95%;
+margin:auto;
+}
+
+#container1
+{
+  background-image: url("../images/mainimage.jpg");
+  background-repeat:no-repeat;
+  width:100%;
+  height:600px;
+   background-size: contain;
+  font-family: 'Bitter', serif;
+   background-size: cover;
+   
+   
+
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-size:15px;
+  font-family: 'Bitter', serif;
+  
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  opacity:0.7;
+  z-index:10;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+.navbar-scroll {
+	background: black;
+	opacity:0.7;
+	height:100px;
+	
+
+	padding: 20;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	transition-duration: 0.6s;
+}
+.remove_nav
+{
+  
+  height: auto;
+  width: 100%;
+  background-color: black;
+  opacity:0.7;
+  position:fixed;
+  z-index:100;
+  transition-duration: 0.6s;
+  
+}
+@media (max-width:1300px)
+{
+body
+{
+ .nav-links a
+ {
+   display:none;
+ }
+ 
+}
+}
+@media (max-width:1000px)
+{
+#boxes
+{
+margin-left:-1px;
+}
+#popup
+{
+  margin-left:5%;
+ 
+}
+#popup2
+{
+ margin-left:5%;
+  width:105%; 
+margin-left:-1px;
+ z-index:20;
+ background-color:black;
+}
+#popup2 p img
+{
+ margin-top:80px;
+}
+
+}
+@media (max-width:988px) {
+  .newssection
+  {
+     margin-top:40px;
+   }
+}
+@media (max-width:400px)
+{
+  #footer
+  {
+   font-size:12px;
+   }
+}
+@media (max-width:1020px) {
+.nav-links
+{
+ display:none;
+}
+}
+@media (max-width:800px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) + .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked + .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  #sub_form input
+  {
+    font-size:10px;
+  }
+  #sub_form button
+  {
+   margin-left:-20px;
+   width:200px;
+  }
+ #sub_form
+   {
+    
+   }
+  
+}
+.sliderButton
+{
+border-radius:100px;
+width:15px; 
+height:15px; 
+background-color:transparent; 
+border:2px solid white; 
+outline:none;
+margin:3px;
+}
+#sliderButtons
+{
+ position:absolute;
+ right:10;
+ top:350;
+}
+.nav_button
+{
+
+position:absolute;
+right:20px;
+
+
+}
+#Popup
+{
+background-color:#26272C; 
+height:250px; 
+
+
+}
+#Popup p img 
+{
+ font-size:50px;
+ color:white; 
+ text-align:center; 
+ margin-top:60px;
+ 
+}
+#popup p
+{
+ color:white; 
+ text-align:center;
+}
+#popup h4
+{
+color:white;
+ text-align:center;
+}
+#Popup2 p img 
+{
+ font-size:50px;
+ color:white; 
+ text-align:center; 
+ margin-top:100px;
+ 
+}
+#popup2
+{
+ background-color:#334BF6; 
+ height:300;
+ margin-top:-20px; 
+ 
+ 
+}
+#popup2 p
+{
+ color:white; 
+ text-align:center;
+}
+#popup2 h4
+{
+color:white;
+ text-align:center;
+}
+.benefits
+{ 
+  margin-top:100px;
+}
+.benefits button
+{
+ background-color:transparent;
+ width:150px;
+ height:40px;
+ border:2px solid black;
+}
+.benefits 
+{
+ margin-top:100px;
+}
+#benefits_logo
+{
+  
+ 
+}
+#benefits_logo h1
+{
+font-size:55px; 
+ 
+}
+benefits_logo span
+{
+color:blue; 
+font-size:30px;
+}
+#RampCustomers
+{
+margin-top:100px;
+background-image: url("../images/rampcustomers.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+#customerSide
+{
+margin-top:60px;
+}
+#RampCustomersText
+{
+margin-top:100px;
+}
+#RampCustomersText h1
+{
+font-size:55px; solid black;  color:white;
+}
+#RampCustomersText p
+{
+color:white; 
+margin-top:20px;
+}
+#RampCustomersText button
+{
+ background-color:transparent;
+ width:150px;
+ color:white;
+ height:40px;
+ border:2px solid white;
+}
+#Features
+{
+ 
+  background-image: url("../images/programming.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding-top:30px;
+  color:white;
+}
+.featureList, .featureList ul {
+  margin-top: 0;
+  padding-left: 2em;
+  list-style-type: none;
+  color:white;
+}
+.featureList li:before {
+  position: absolute;
+  margin-left: -1.3em;
+  font-weight: bold;
+  color:white;
+}
+.featureList li.tick:before {
+    content: "\2713";
+  color: black;
+  background-color:white;
+  border-radius:100px;
+  width:25px;
+  height:25px;
+  text-align:center;
+  padding:3px;
+  
+  
+}
+.featureList li.cross:before {
+  content: "\2717";
+  color: crimson;
+}
+.news
+{
+margin:0px;
+
+
+background-color:#F8F8F8;
+
+
+}
+.newssection
+{
+
+
+}
+.news_image
+{
+
+}
+.new_description
+{
+background-color:#F8F8F8;
+width:100%;
+height:auto
+}
+form {
+  /* This bit sets up the horizontal layout */
+  display:flex;
+  flex-direction:row;
+  
+  /* This bit draws the box around it */
+  border:1px solid white;
+  background-color:transparent;
+  border-radius:50px;
+  width:100%;
+  padding:2px;
+  border:2px solid blue;
+  height:50px;
+}
+
+input {
+  /* Tell the input to use all the available space */
+  flex-grow:2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border:none;
+  border-radius:50px;
+  outline:none;
+  background-color:transparent;
+  color:white;
+  placeholder-color:white;
+  margin-left:10px;
+}
+
+#button1 {
+  /* Just a little styling to make it pretty */
+  border:1px solid blue;
+  background:blue;
+  color:white;
+  border-radius:50px;
+  width:150px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+td
+{
+padding:10px;
+border-radius:100px;
+cursor:pointer;
+}
+.icon
+{
+font-size:15px;
+padding-top:5px;
+text-align:center;
+color:white;
+width:30px;
+height:30px;
+border:2px solid blue;
+border-radius:100px;
+}
+#nav1 li
+{
+display:inline;
+padding:10px;
+color:white;
+}
+#nav1 li a
+{
+color:white;
+text-decoration:none;
+}
+.img-responsive {
+    margin: 0 auto;
+}
